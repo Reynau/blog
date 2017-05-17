@@ -1,0 +1,6 @@
+# Head
+rss: /atom.xml
+favicon: /favicon.png
+
+# Index
+index_layout: archive

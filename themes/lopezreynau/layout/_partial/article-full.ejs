@@ -1,0 +1,16 @@
+<article>
+    <h2 class="text-center">
+        <a href="<%- config.root %><%- item.path %>">
+            <%- item.title || item.link%>
+        </a>
+        <br>
+        <small>
+            <%= item.date.format(config.date_format) %>
+            <% if(item.author) { %>
+                by <%- item.author %>
+            <% } %>
+        </small>
+    </h2>
+    <!-- Content -->
+    <%- item.content %>
+</article>

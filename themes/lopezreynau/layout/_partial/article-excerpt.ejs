@@ -1,0 +1,26 @@
+<article class="row">
+    <!-- Title -->
+    <h2>
+        <a href="<%- config.root %><%- item.path %>">
+            <%- item.title %>
+        </a>
+        <br>
+        <!-- Date and Author -->
+        <small>
+            <%= item.date.format(config.date_format) %>
+            <% if(item.author) { %>
+            by <%- item.author %>
+            <% } %>
+        </small>
+    </h2>
+    <!-- Content -->
+    <%- item.excerpt || item.content %>
+    <!-- Only display the Read More link if we are displaying an excerpt -->
+    <% if(item.excerpt) { %>
+    <p>
+        <a href="<%- config.root %><%- item.path %>">
+            <%= theme.excerpt_link %>
+        </a>
+    </p>
+    <% } %>
+</article>

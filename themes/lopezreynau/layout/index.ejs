@@ -1,0 +1,12 @@
+<div class="container text-center">
+    <div class="row">
+        <h1>Blog<br><small>Some of my writings</small></h1>
+    </div>
+    <ul class="list-unstyled">
+        <% page.posts.each(function(item){ %>
+            <li><%- partial('_partial/article-title', {item: item}) %></li>
+        <% }); %>
+    </ul>
+</div>
+
+<%- partial('_partial/pagination') %>
