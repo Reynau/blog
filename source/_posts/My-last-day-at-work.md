@@ -9,6 +9,6 @@ I met up with a young teacher I had a year before that just started working here
 
 Was the moment for the speeches: Mentors, project managers, workmates... A lot of people was here. I felt a little sad when I remembered that I was not going to share my time daily with all that people anymore. Once we finished our speeches, a printed shirt flight to my hands. It was the shirt, the most epic shirt I've ever seen.
 
-![](https://github.com/Reynau/blog/tree/master/docs/images/the-shirt.jpg)
+![](/blog/images/the-shirt.jpg)
 
 Really impressive, guys. Thank you all for all that time we spent working, laughing, eating and playing together!
